@@ -1,0 +1,38 @@
+.footerbg {
+background-color: #111827; 
+color: #d1d5db;
+}
+
+.footer-logo {
+width: 70px;
+height:70px;
+}
+
+.footer-title {
+font-weight: 600;
+color: #ffffff;
+margin-bottom: 1rem;
+}
+
+.footer-link {
+display: block;
+color: #9ca3af;
+text-decoration: none;
+margin-bottom: 0.5rem;
+transition: color 0.2s;
+}
+
+.footer-link:hover {
+color: #0ce6db; 
+}
+.subbtn
+{
+background-color: #20827d!important;
+color: white;
+border-color: #069e96 !important;
+}
+.subbtn:hover
+{
+background-color: #20827d!important;
+border-color: #5bd9d3 !important;
+}

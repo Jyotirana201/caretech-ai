@@ -1,0 +1,95 @@
+.upgrade-section {
+position: relative;
+padding: 60px 0;
+color: #0d958e  !important;
+}
+.upgrade-section .overlay {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+background: rgba(0, 0, 0, 0.55);
+z-index: -1;
+border-radius: 0;
+}
+.upgrade-section h2 {
+font-size: 2.5rem;
+font-weight: 700;
+}
+
+.upgrade-section p {
+font-size: 1.1rem;
+max-width: 600px;
+margin: 0 auto;
+}
+.upgrade-section .card {
+border: none;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+border-radius: 20px;
+padding: 25px;
+background: rgba(255, 255, 255, 0.95);
+}
+.upgrade-section .card:hover {
+transform: translateY(-10px);
+box-shadow: 0 20px 30px rgba(0, 0, 0, 0.15);
+}
+
+.upgrade-section .card-title {
+font-size: 1.5rem;
+font-weight: 600;
+margin-bottom: 10px;
+}
+.upgrade-section .text-success {
+font-size: 1.2rem;
+font-weight: 500;
+}
+
+.upgrade-section ul {
+padding: 0;
+list-style: none;
+margin-bottom: 20px;
+}
+.upgrade-section ul li {
+font-size: 1rem;
+margin: 10px 0;
+display: flex;
+align-items: center;
+}
+
+.upgrade-section ul li i {
+font-size: 1.1rem;
+}
+
+
+.btn {
+   background-color: white;
+  color: #0d958e !important;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 8px 20px;
+  font-weight: 600;
+  border-color: #0d958e !important;
+}
+
+.btn:hover {
+  background-color: #0d958e !important;
+  color: #fff !important;
+  border-color: none !important;
+}
+
+
+.cardCustom {
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 20px;
+  padding: 25px;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.cardCustom:hover {
+  transform: scale(1.05);
+  box-shadow: 0 25px 35px rgba(0, 0, 0, 0.2);
+}
+
+

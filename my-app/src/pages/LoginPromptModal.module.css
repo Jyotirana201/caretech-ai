@@ -1,0 +1,40 @@
+.modalOverlay {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 320px;
+  text-align: center;
+}
+
+.buttonGroup {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.loginBtn {
+  background-color: #19bcb3;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.closeBtn {
+  background-color: #ccc;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  cursor: pointer;
+}

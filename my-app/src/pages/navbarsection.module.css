@@ -1,0 +1,112 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+    overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+[data-aos] {
+  visibility: visible !important;
+}
+
+.navbg {
+  background-color: white;
+}
+.homelink{
+  padding: 10px 20px;
+  margin: 0 15px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #19bcb3 !important;
+
+}
+.linkmenu:hover,
+.linkmenu .dropdown-toggle:hover,
+.linkmenu .dropdown-toggle:focus {
+  color: #43928e !important;
+}
+.dropmenu {
+  color: #0d958e !important;
+}
+.dropmenu:hover,
+.dropmenu:focus,
+.dropmenu.show {
+  color: white !important;
+  background-color: #43928e !important;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 1.2);
+}
+.loginbtn {
+  background-color: white;
+  color: #19bcb3 !important;
+  border-color: #19bcb3 !important;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 1.2);
+}
+
+.loginbtn:hover {
+  background-color: #19bcb3 !important;
+  color: #fff !important;
+  box-shadow: none;
+}
+
+/* Signup button styling */
+.signbtn {
+  color: #ffffff !important;
+  border-color: #19bcb3 !important;
+  background-color: #19bcb3 !important;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 1.2);
+}
+.signbtn:hover {
+  background-color: #0d958e !important;
+  color: #fff !important;
+  box-shadow: none;
+}
+.navLinks {
+  display: flex;
+  gap: 1px;
+  justify-content: space-between;
+  width: 40%;
+}
+.navbarLogo {
+  height: 55px;
+  width: auto;
+  margin-right: 80px;
+  margin-left: 25px;
+}
+
+/* Navbar link color */
+.navbar .nav-link {
+  color: #19bcb3 !important;  /* Base link color */
+}
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+  color: #43928e !important;  /* Hover effect */
+}
+.navbar .nav-item .dropdown-toggle {
+  color: #19bcb3 !important; /* Base color */
+}
+.navbar .nav-item .dropdown-toggle:hover,
+.navbar .nav-item .dropdown-toggle:focus {
+  color: #43928e !important; /* Hover/focus color */
+}
+.navbar .nav-item .dropdown-toggle.show {
+  color: #43928e !important; /* Active state color */
+}
+:global(.navbar .nav-item .dropdown-toggle) {
+  color: #19bcb3 !important;  /* Base dropdown color */
+}
+
+:global(.navbar .nav-item .dropdown-toggle:hover),
+:global(.navbar .nav-item .dropdown-toggle:focus) {
+  color: #43928e !important; /* Hover/focus dropdown color */
+}
+.navbar .nav-item .dropdown-toggle {
+  color: inherit !important;  /* Inherit color from parent */
+}
+.linkmenu {
+  margin: 0 13px;
+  font-size: 16px;
+  text-decoration: none;}

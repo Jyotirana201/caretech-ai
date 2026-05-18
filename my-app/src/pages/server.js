@@ -51,7 +51,7 @@ const Chatbot = () => {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: `Bearer ${API_KEY}`,
+          Authorization: `Bearer ${xxxx}`,
           'HTTP-Referer': 'http://localhost:3000/',
           'X-Title': 'MyHealthChatApp'
         },

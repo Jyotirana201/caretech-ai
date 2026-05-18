@@ -6,8 +6,8 @@ def get_db_connection():
         conn = mysql.connector.connect(
             host='localhost',
             user='root',
-            password='#Chinurajput2003',
-            database='caretech'
+            password='xxxxxxxxxxx',
+            database='xxxxxx'
         )
         return conn
     except mysql.connector.Error as err:
